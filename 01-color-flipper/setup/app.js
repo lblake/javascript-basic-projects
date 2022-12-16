@@ -4,6 +4,8 @@ btn.addEventListener('click', function () {
   const randomNumber = getRandomNumber();
 
   document.body.style.backgroundColor = colors[randomNumber];
+
+  document.querySelector('.color').textContent = colors[randomNumber];
 });
 
 const getRandomNumber = () => {
