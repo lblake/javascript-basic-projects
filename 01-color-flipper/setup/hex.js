@@ -8,9 +8,7 @@ const getColorName = (colorValue) => {
   axios
     .get(`https://www.thecolorapi.com/id?hex=${colorValue}`)
     .then((res) => {
-      console.log(res);
       colorValue = res.data.name.value;
-      console.log('The name is:', colorValue);
       setColorName(colorValue);
     })
     .catch((err) => {
