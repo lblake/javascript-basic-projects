@@ -3,9 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Color Flipper || Simple
-    </title>
+    <title>Color Flipper || Simple</title>
 
     <!-- styles -->
     <link rel="stylesheet" href="styles.css" />
@@ -23,11 +21,13 @@
     </nav>
     <main>
       <div class="container">
-        <h2>background color : <span class="color">#f1f5f8</span></h2>
+        <h2>background color name: <span class="colorName"></span></h2>
+        <h2>background color hex value: <span class="color"></span></h2>
         <button class="btn btn-hero" id="btn">click me</button>
       </div>
     </main>
     <!-- javascript -->
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
     <script src="hex.js"></script>
   </body>
 </html>
