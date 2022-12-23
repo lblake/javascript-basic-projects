@@ -16,8 +16,8 @@ const getColorName = (colorValue) => {
     });
 };
 
-const setColorName = (name) => {
-  document.querySelector('.colorName').textContent = name;
+const setColorName = (colorName) => {
+  document.querySelector('.colorName').textContent = colorName;
 };
 
 btn.addEventListener('click', function () {
